@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  background: white;
+  color: black;
+}
+
+/* NAVBAR */
+.navbar {
+  border-bottom: 2px solid black;
+}
+.navbar-brand {
+  font-weight: bold;
+}
+
+/* BANNER */
+.banner {
+  text-align: center;
+  padding: 80px 20px;
+  border-bottom: 2px solid black;
+}
+.banner h1 {
+  font-weight: bold;
+}
+.banner p {
+  font-style: italic;
+  margin-bottom: 25px;
+}
+
+/* PLEDGE BUTTON */
+.btn-pledge {
+  border: 2px solid black;
+  color: black;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.btn-pledge:hover {
+  background: black;
+  color: white;
+}
+
+/* TOPIC CARDS */
+.topics {
+  padding: 50px 15px;
+}
+.topic-card {
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 60px 20px;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+/* PAGE TITLE (other pages) */
+.page-title {
+  text-align: center;
+  padding: 50px 20px;
+  border-bottom: 2px solid black;
+}
+.page-title h1 {
+  font-weight: bold;
+}
+
+/* SECTIONS + BOXES (other pages) */
+.section {
+  padding: 30px 15px;
+}
+.box {
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 40px;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+form.box {
+  text-align: left;
+  font-size: 1rem;
+}
+
+/* FOOTER */
+footer {
+  border-top: 2px solid black;
+  text-align: center;
+  padding: 20px;
+}
+footer p {
+  margin: 0;
+}

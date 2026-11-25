@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pledge | SDG 14</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <meta name="author" content="John">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">SDG 14</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="impacts.html">Impacts &amp; Data</a></li>
+          <li class="nav-item"><a class="nav-link" href="solutions.html">Solutions</a></li>
+          <li class="nav-item"><a class="nav-link" href="pledge.html">Pledge</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE TITLE -->
+  <header class="page-title">
+    <h1>Ocean Protection Pledge</h1>
+    <p>Make a promise to help our oceans</p>
+  </header>
+
+  <!-- PLEDGE COUNTER -->
+  <section class="container section">
+    <div class="box">Pledges so far: <span id="counter">0</span></div>
+  </section>
+
+  <!-- PLEDGE FORM -->
+  <section class="container section">
+    <form id="pledge-form" class="box">
+      <label for="name">Name</label>
+      <input type="text" id="name" class="form-control mb-3">
+
+      <label for="email">Email</label>
+      <input type="email" id="email" class="form-control mb-3">
+
+      <label for="choice">My pledge</label>
+      <select id="choice" class="form-select mb-3">
+        <option>Use less plastic</option>
+        <option>Eat sustainable seafood</option>
+        <option>Join a beach clean-up</option>
+      </select>
+
+      <button type="submit" class="btn-pledge">Submit Pledge</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Page author: <strong>John</strong></p>
+    <p>SDG 14: Life Below Water · Group R</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
